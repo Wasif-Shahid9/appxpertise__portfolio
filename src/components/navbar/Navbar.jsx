@@ -141,3 +141,8 @@ function Navbar(props) {
 // };
 
 export default Navbar;
+
+// // git remote add origin https://github.com/Wasif-Shahid9/appxpertise__portfolio.git
+// // git remote set-url https://github.com/Wasif-Shahid9/appxpertise__portfolio.git
+// git remote add origin in https://github.com/Wasif-Shahid9/appxpertise__portfolio.git
+// // git remote set-url https://github.com/Wasif-Shahid9/appxpertise__portfolio.git
