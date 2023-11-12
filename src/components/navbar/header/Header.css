@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --background-color: #ecf0f1;
+  --text-color: #333;
+}
+.header_white {
+  color: white;
+  margin: 40px 0px;
+}
+.header_span {
+  color: #057bff;
+}
+.header__text-wrapper-1 {
+  color: #ffffff;
+  font-size: 90px;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+}
+.header__text-wrapper-2 {
+  font-size: 64px;
+}
+
+.header__img {
+  width: 100%;
+}
