@@ -1,9 +1,18 @@
 import React from "react";
 import { Grid, Typography, Box } from "@mui/material";
-import serviceImg from "../../assets/images/services.png";
+
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import card1 from "../../assets/images/card1.jpeg";
+import card2 from "../../assets/images/card2.jpeg";
+import CustomCard from "./CustomCard";
+
 const ServicesCards = () => {
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={10}>
       <Grid item xs={12} md={12} lg={12} sm={12}>
         <Typography
           sx={{
@@ -30,11 +39,22 @@ const ServicesCards = () => {
           Our Services
         </Typography>
       </Grid>
-      <Grid item xs={12} md={12} lg={12} sm={12}>
-        <Box sx={{ width: "100%" }}>
-          <img src={serviceImg} alt="error" style={{ width: "100%" }} />
-        </Box>
-      </Grid>
+
+      <CustomCard
+        imageSrc={card1}
+        title="What We Provide"
+        content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus architecto quo quasi reiciendis hic accusamus esse doloremque cum corrupti!"
+      />
+      <CustomCard
+        imageSrc={card2}
+        title="What We Provide"
+        content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus architecto quo quasi reiciendis hic accusamus esse doloremque cum corrupti!"
+      />
+      <CustomCard
+        imageSrc={card2}
+        title="What We Provide"
+        content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus architecto quo quasi reiciendis hic accusamus esse doloremque cum corrupti!"
+      />
     </Grid>
   );
 };

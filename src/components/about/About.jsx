@@ -37,7 +37,6 @@ const About = () => {
             fontSize: { xs: "18px", sm: "20px", md: "30px", lg: "40px" },
             fontFamily: '"Mplus 1p Bold-Bold", Helvetica',
             fontWeight: 600,
-            fontFamily: '"Mplus 1p Bold-Bold", Helvetica',
           }}
         >
           AppXpertise is by far the best unity game development company in the
